@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<script>if(!/(\/|\.html)$/.test(location.pathname))location.replace(location.pathname+"/"+location.search+location.hash)</script>
+<title>Peak Nutrition | Terence Boateng, RD, Registered Dietitian in Toronto</title>
+<meta name="description" content="Registered dietitian and certified exercise physiologist Terence Boateng. Sports, endurance and longevity nutrition, weight management and gut health, downtown Toronto or virtual. Covered by most insurance plans.">
+<link rel="icon" href="assets/logo-square.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HealthAndBeautyBusiness",
+  "name": "Peak Nutrition",
+  "url": "https://peaknutrition.ca",
+  "telephone": "+1-416-436-0141",
+  "email": "info@peaknutrition.ca",
+  "address": {"@type": "PostalAddress", "streetAddress": "100 King St W, 56th floor", "addressLocality": "Toronto", "addressRegion": "ON", "postalCode": "M5X 1A9", "addressCountry": "CA"},
+  "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "56"}
+}
+</script>
+<style>
+:root{
+  --paper:#ffffff;
+  --ice:#edf3f9;
+  --sky:#7fb2e0;
+  --navy:#183f69;
+  --navy-deep:#0d2744;
+  --gold:#e0a63a;
+  --ink:#0f2238;
+  --stone:#4a5a6c;
+  --line:#d8e3ee;
+  --display:"Barlow Semi Condensed","Arial Narrow",Arial,system-ui,sans-serif;
+  --sans:"Barlow","Helvetica Neue",Arial,system-ui,sans-serif;
+  --gutter:clamp(18px,4vw,56px);
+  --maxw:1240px;
+  --r:18px;
+  color-scheme:light;
+}
+@media (min-width:1700px){:root{--maxw:1400px}}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+section[id]{scroll-margin-top:84px}
+html{scroll-behavior:smooth;background:var(--paper)}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 18px/1.6 var(--sans);-webkit-font-smoothing:antialiased;overflow-x:clip}
+img{display:block;max-width:100%}
+a{color:var(--navy)}
+h1,h2,h3,p,figure,blockquote{margin:0}
+h1,h2,h3{font-family:var(--display);font-weight:800;letter-spacing:-.01em;line-height:1;text-wrap:balance}
+h3{font-size:25px;font-weight:700;line-height:1.1}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:4px}
+.wrap{max-width:var(--maxw);margin-inline:auto;padding-inline:var(--gutter)}
+.section{padding-block:clamp(72px,9vw,124px)}
+.h2{font-size:clamp(38px,4.8vw,64px)}
+.intro{color:var(--stone);font-size:clamp(17px,1.4vw,20px);max-width:58ch;margin-top:16px}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:0 28px;border-radius:10px;font:700 16.5px/1 var(--sans);text-decoration:none;border:2px solid transparent;cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.btn-main{background:var(--navy);color:#fff}
+.btn-main:hover{background:var(--navy-deep)}
+.btn-gold{background:var(--gold);color:var(--navy-deep)}
+.btn-gold:hover{background:#f0b64a}
+.btn-line{border-color:var(--navy);color:var(--navy)}
+.btn-line:hover{background:var(--navy);color:#fff}
+.tel{font-weight:700;text-decoration:none;color:var(--ink);white-space:nowrap}
+.tel:hover{color:var(--navy)}
+
+.nav{position:sticky;top:0;z-index:40;background:rgba(255,255,255,.95);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid transparent;transition:border-color .2s}
+.nav.stuck{border-bottom-color:var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:76px}
+.brand img{height:52px;width:auto}
+.nav ul{display:flex;gap:clamp(14px,2vw,30px);list-style:none;margin:0;padding:0}
+.nav ul a{color:var(--ink);text-decoration:none;font-weight:600;font-size:16px}
+.nav ul a:hover{color:var(--navy)}
+.nav .right{display:flex;align-items:center;gap:12px}
+.menu-btn{display:none;min-height:46px;padding:0 18px;border-radius:10px;border:2px solid var(--line);background:#fff;font:700 15px var(--sans);color:var(--ink);cursor:pointer}
+@media (max-width:1040px){.nav ul{display:none}.menu-btn{display:inline-flex;align-items:center}}
+@media (max-width:560px){.nav .right .btn{display:none}.brand img{height:44px}}
+.drawer{position:fixed;inset:0;z-index:60;background:#fff;padding:calc(24px + env(safe-area-inset-top,0px)) var(--gutter) calc(32px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:4px;overflow:auto}
+.drawer .top{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}
+.drawer a.lk{font:800 32px/1.4 var(--display);color:var(--ink);text-decoration:none;padding-block:6px;border-bottom:1px solid var(--line)}
+.drawer .btn{margin-top:22px}
+
+/* Hero */
+.hero{background:linear-gradient(180deg,var(--ice) 0%,#fff 100%);padding-block:clamp(32px,5vw,72px) clamp(56px,7vw,96px)}
+.hero .wrap{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,80px);align-items:center}
+.kicker{font-weight:700;color:var(--navy);font-size:16px}
+.hero h1{font-size:clamp(52px,7.4vw,108px);margin-top:14px;color:var(--navy-deep)}
+.hero h1 span{color:var(--gold)}
+.hero .lead{margin-top:20px;font-size:clamp(18px,1.6vw,22px);max-width:42ch}
+.pills{list-style:none;margin:24px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px;max-width:600px}
+.pills li{background:#fff;border:1.5px solid var(--line);color:var(--navy);border-radius:8px;padding:8px 14px;font-weight:600;font-size:15.5px}
+.hero .aside{margin-top:18px;color:var(--stone);font-size:17px;max-width:48ch}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;margin-top:30px}
+.proof{display:flex;flex-wrap:wrap;gap:12px 30px;margin-top:32px;padding-top:24px;border-top:1px solid var(--line);font-size:16px;color:var(--stone)}
+.proof b{color:var(--navy-deep);font:800 30px/1 var(--display);margin-right:6px}
+.proof .st{color:var(--gold);letter-spacing:2px}
+.photo{position:relative;justify-self:end;width:100%;max-width:640px}
+.photo img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:48% 40%;border-radius:var(--r)}
+.photo figcaption{position:absolute;left:-14px;bottom:28px;background:#fff;border-radius:14px;padding:14px 18px;box-shadow:0 16px 40px -20px rgba(13,39,68,.5);font-size:15.5px;line-height:1.35;max-width:260px}
+.photo figcaption b{display:block;color:var(--navy-deep);font-size:16.5px}
+.photo .badge{position:absolute;right:-14px;top:28px;background:var(--navy);color:#fff;border-radius:14px;padding:14px 18px;font-weight:600;font-size:15px;line-height:1.3;max-width:210px}
+.photo .badge b{display:block;font:800 26px/1 var(--display);color:var(--gold)}
+@media (min-width:901px){.hero .wrap{align-items:stretch}.hero .wrap > div{align-self:center}.hero .photo{display:flex}.hero .photo img{aspect-ratio:auto;height:100%;min-height:560px}}
+@media (max-width:900px){.hero .wrap{grid-template-columns:1fr}.photo{max-width:460px;justify-self:start}.photo .badge{right:12px}.photo figcaption{left:12px}}
+
+/* Specialties */
+.spec{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:clamp(36px,4vw,56px)}
+.spec article{background:var(--ice);border-radius:var(--r);padding:26px;display:grid;gap:10px;align-content:start;border-left:5px solid var(--sky)}
+.spec article:nth-child(3n+2){border-left-color:var(--gold)}
+.spec article:nth-child(3n){border-left-color:var(--navy)}
+.spec p{color:var(--stone);font-size:16.5px}
+@media (max-width:900px){.spec{grid-template-columns:1fr 1fr}}
+@media (max-width:600px){.spec{grid-template-columns:1fr}}
+
+/* Programs (signature) */
+.programs{background:var(--navy-deep);color:#fff}
+.programs .h2{color:#fff}
+.programs .intro{color:#c5d6ea}
+.goals{display:flex;flex-wrap:wrap;gap:8px;margin-top:30px}
+.goals button{min-height:48px;padding:0 20px;border-radius:10px;border:2px solid rgba(255,255,255,.25);background:transparent;color:#fff;font:700 16px var(--sans);cursor:pointer}
+.goals button[aria-selected="true"]{background:var(--gold);border-color:var(--gold);color:var(--navy-deep)}
+.pk-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:16px;margin-top:24px}
+.pk{background:#fff;color:var(--ink);border-radius:var(--r);padding:28px;display:flex;flex-direction:column;gap:14px}
+.pk.best{box-shadow:0 0 0 4px var(--gold)}
+.pk .tag{align-self:flex-start;background:var(--gold);color:var(--navy-deep);font-weight:700;font-size:13px;border-radius:6px;padding:5px 10px}
+.pk .price{font:800 46px/1 var(--display);color:var(--navy-deep)}
+.pk .price small{font:600 15px var(--sans);color:var(--stone);margin-left:6px}
+.pk p.d{color:var(--stone);font-size:16px}
+.pk ul{margin:0;padding:0;list-style:none;display:grid;gap:8px;font-size:16px}
+.pk li{display:grid;grid-template-columns:18px 1fr;gap:10px}
+.pk li::before{content:"";width:18px;height:18px;margin-top:3px;border-radius:50%;background:var(--ice) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23183f69' stroke-width='3'%3E%3Cpath d='m6 12 4 4 8-8'/%3E%3C/svg%3E") center/11px no-repeat}
+.pk .btn{margin-top:auto;align-self:flex-start}
+.programs .note{margin-top:18px;color:#c5d6ea;font-size:15.5px}
+
+/* Insurance */
+.ins .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(28px,5vw,64px);align-items:center}
+.ins .big{font:800 clamp(48px,6vw,80px)/1 var(--display);color:var(--navy)}
+.ins .big small{display:block;font:600 18px var(--sans);color:var(--stone);margin-top:8px}
+.insurers{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.insurers span{background:var(--ice);border-radius:8px;padding:9px 14px;font-weight:600;font-size:15.5px;color:var(--navy-deep)}
+.ins ul{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.ins li{background:var(--ice);border-radius:14px;padding:18px 20px;font-size:16.5px}
+.ins li b{display:block;color:var(--navy-deep)}
+@media (max-width:900px){.ins .wrap{grid-template-columns:1fr}}
+
+/* Reviews */
+.rev{background:var(--ice)}
+.rev-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap}
+.score{display:flex;align-items:center;gap:16px}
+.score b{font:800 76px/1 var(--display);color:var(--navy-deep)}
+.score span{color:var(--stone);font-size:16px;line-height:1.4}
+.score .st{display:block;color:var(--gold);letter-spacing:2px;font-size:20px}
+.rev-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:18px;margin-top:clamp(36px,4vw,56px);align-items:start}
+.topics{background:#fff;border-radius:var(--r);padding:28px}
+.topics h3{font-size:24px;margin-bottom:6px}
+.topics p.sub{color:var(--stone);font-size:15.5px;margin-bottom:14px}
+.bar{display:grid;grid-template-columns:1fr auto;gap:6px 12px;align-items:center;margin-top:12px;font-size:16px}
+.bar .t{font-weight:600}
+.bar .n{color:var(--stone);font-size:15px;font-variant-numeric:tabular-nums}
+.bar .track{grid-column:1/-1;height:10px;border-radius:10px;background:var(--ice);overflow:hidden}
+.bar .fill{display:block;height:100%;background:var(--navy);border-radius:10px}
+.quotes{display:grid;gap:14px}
+.q{background:#fff;border-radius:var(--r);padding:26px}
+.q blockquote{font:500 19px/1.5 var(--sans)}
+.q figcaption{margin-top:12px;font-size:15px;color:var(--stone)}
+.q figcaption b{color:var(--navy-deep)}
+.q.hl{background:var(--navy)}
+.q.hl blockquote{color:#fff}
+.q.hl figcaption,.q.hl figcaption b{color:#c5d6ea}
+@media (max-width:960px){.rev-grid{grid-template-columns:1fr}}
+
+/* About */
+.about .wrap{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,72px);align-items:center}
+.about figure{border-radius:var(--r);overflow:hidden}
+.about figure img{width:100%;aspect-ratio:3/2;object-fit:cover}
+.about p{margin-top:16px;max-width:60ch}
+.creds{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.creds span{background:var(--ice);border-radius:8px;padding:8px 14px;font-weight:600;font-size:15px;color:var(--navy-deep)}
+.clients{margin-top:22px;font-size:16px;color:var(--stone)}
+.clients b{color:var(--navy-deep)}
+@media (max-width:900px){.about .wrap{grid-template-columns:1fr}}
+
+/* Visit */
+.visit .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:18px}
+.vcard{border-radius:var(--r);padding:clamp(26px,3vw,40px);background:var(--ice)}
+.vcard.dark{background:var(--navy)}
+.vcard.dark h2,.vcard.dark p{color:#fff}
+.vcard ul{list-style:none;margin:18px 0 0;padding:0;display:grid;gap:14px}
+.vcard li{display:grid;gap:2px;font-size:17px}
+.vcard li b{font-size:14.5px;color:var(--stone)}
+.vcard .ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+@media (max-width:900px){.visit .wrap{grid-template-columns:1fr}}
+
+footer{background:var(--navy-deep);color:#c5d6ea;font-size:15.5px}
+footer .wrap{padding-block:44px calc(36px + env(safe-area-inset-bottom,0px));display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:center}
+footer a{color:#fff}
+footer img{height:44px;width:auto;background:#fff;border-radius:8px;padding:4px 8px}
+
+.mbar{position:fixed;left:0;right:0;bottom:0;z-index:50;display:none;gap:10px;padding:10px 14px calc(10px + env(safe-area-inset-bottom,0px));background:rgba(255,255,255,.97);border-top:1px solid var(--line)}
+.mbar .btn{flex:1;min-height:50px;padding:0 14px;font-size:15.5px}
+@media (max-width:760px){.mbar{display:flex}body{padding-bottom:74px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Peak Nutrition, home"><img src="assets/logo.png" alt="Peak Nutrition, Food for Performance" width="92" height="52"></a>
+    <nav aria-label="Main"><ul>
+      <li><a href="#specialties">Specialties</a></li><li><a href="#programs">Programs</a></li><li><a href="#insurance">Insurance</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#about">About</a></li>
+    </ul></nav>
+    <div class="right">
+      <a class="btn btn-main" data-book href="https://peaknutrition.ca/book-now/" target="_blank" rel="noopener">Book a free consult</a>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="drawer">Menu</button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" hidden role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="top"><img src="assets/logo.png" alt="Peak Nutrition" style="height:46px;width:auto"><button class="menu-btn" id="menuClose" style="display:inline-flex">Close</button></div>
+  <a class="lk" href="#specialties">Specialties</a><a class="lk" href="#programs">Programs and pricing</a><a class="lk" href="#insurance">Insurance</a><a class="lk" href="#reviews">Reviews</a><a class="lk" href="#about">About Terence</a><a class="lk" href="#visit">Visit and contact</a>
+  <a class="btn btn-main" data-book href="https://peaknutrition.ca/book-now/" target="_blank" rel="noopener">Book a free consult</a>
+  <a class="btn btn-line" href="tel:+14164360141">Call 416-436-0141</a>
+</div>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <p class="kicker">Terence Boateng, Registered Dietitian and Certified Exercise Physiologist</p>
+      <h1>Food for <span>performance.</span></h1>
+      <p class="lead">Reach your health, training and weight goals with personalized nutrition counselling, backed by evidence-based practice.</p>
+      <ul class="pills" aria-label="Specialties">
+        <li>Weight management</li><li>Sports nutrition</li><li>Endurance coaching</li><li>Muscle gain</li><li>Gut health</li><li>Longevity</li>
+      </ul>
+      <p class="aside">In person at 100 King St W in downtown Toronto, or virtual. Covered by most extended health benefit plans.</p>
+      <div class="ctas">
+        <a class="btn btn-main" data-book href="https://peaknutrition.ca/book-now/" target="_blank" rel="noopener">Book a free consult</a>
+        <a class="tel" href="tel:+14164360141">or call 416-436-0141</a>
+      </div>
+      <div class="proof">
+        <span><b>5.0</b><span class="st" aria-hidden="true">★★★★★</span> 56 Google reviews</span>
+        <span><b>RD + CEP</b>dietitian and exercise physiologist</span>
+      </div>
+    </div>
+    <figure class="photo">
+      <img src="assets/kitchen.jpg" alt="Terence Boateng standing in a kitchen beside a bowl of fruit" width="1800" height="1200" fetchpriority="high">
+      <span class="badge"><b>Free</b>consultation to get started</span>
+      <figcaption><b>Nutrition and exercise science</b>A kinesiology and nutrition background, under one plan.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section" id="specialties" aria-labelledby="specTitle">
+  <div class="wrap">
+    <h2 class="h2" id="specTitle">What we specialize in</h2>
+    <p class="intro">Ideal for clients who want to maximize their training, improve their health, or trim extra body fat through personalized nutrition recommendations.</p>
+    <div class="spec">
+      <article><h3>Weight management</h3><p>Healthy fat loss, accountability and a client-centred approach.</p></article>
+      <article><h3>Sports nutrition</h3><p>Nutrition for performance, hydration protocols and supplement recommendations.</p></article>
+      <article><h3>Muscle gain</h3><p>Increasing muscle mass, macro calculations and supplement recommendations.</p></article>
+      <article><h3>Gut health</h3><p>IBS, bloating, diarrhea, constipation and heartburn, including the low FODMAP diet.</p></article>
+      <article><h3>Longevity</h3><p>Metabolic health and disease prevention, muscle mass maintenance and cognitive health.</p></article>
+      <article><h3>Health and wellness</h3><p>A lifestyle approach to blood sugar management and disease prevention.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section programs" id="programs" aria-labelledby="progTitle">
+  <div class="wrap">
+    <h2 class="h2" id="progTitle">Programs and pricing</h2>
+    <p class="intro">Pick your goal to see the matching programs. Every program starts with a 60-minute assessment, and more follow-ups can be added as needed.</p>
+    <div class="goals" role="tablist" aria-label="Choose your goal" id="goals"></div>
+    <div class="pk-grid" id="pkgs" aria-live="polite"></div>
+    <p class="note">Not sure where to start? Book the free consultation first.</p>
+  </div>
+</section>
+
+<section class="section ins" id="insurance" aria-labelledby="insTitle">
+  <div class="wrap">
+    <div>
+      <h2 class="h2" id="insTitle">Covered by insurance</h2>
+      <p class="intro">Many extended health benefit plans cover visits with a registered dietitian.</p>
+      <p class="big" style="margin-top:26px">$300 to $1,000<small>what most plans provide per year for dietitian services</small></p>
+      <div class="insurers"><span>Sun Life</span><span>Manulife</span><span>Canada Life</span><span>Green Shield</span><span>Blue Cross</span><span>Desjardins</span><span>Equitable Life</span><span>Empire Life</span></div>
+    </div>
+    <ul>
+      <li><b>Direct billing</b>Available for most insurance companies.</li>
+      <li><b>Receipts for reimbursement</b>If you pay out of pocket, you get a receipt to submit to your plan.</li>
+      <li><b>Virtual or in person</b>Appointments online or downtown Toronto.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section rev" id="reviews" aria-labelledby="revTitle">
+  <div class="wrap">
+    <div class="rev-head">
+      <h2 class="h2" id="revTitle">What clients say</h2>
+      <div class="score"><b>5.0</b><span><span class="st" aria-hidden="true">★★★★★</span>56 reviews on Google<br><a href="https://www.google.com/maps/search/Peak+Nutrition+100+King+St+W+Toronto" target="_blank" rel="noopener">Read all reviews</a></span></div>
+    </div>
+    <div class="rev-grid">
+      <div class="topics">
+        <h3>What clients mention most</h3>
+        <p class="sub">Topics Google found across his reviews.</p>
+        <div id="bars"></div>
+      </div>
+      <div class="quotes">
+        <figure class="q hl"><blockquote>I can't recommend Terence enough! He is incredibly efficient and drafted a meal plan for me in no time. What I appreciated most was how educational his approach is.</blockquote><figcaption><b>Lin</b>, Google review</figcaption></figure>
+        <figure class="q"><blockquote>Terence is truly an expert at what he does and I've had nothing but great experiences with him so far!</blockquote><figcaption><b>Jordan D.</b>, Google review</figcaption></figure>
+        <figure class="q"><blockquote>An incredibly well-informed dietitian and a true subject matter expert. What really makes him stand out, in my opinion, is his exceptional communication skills.</blockquote><figcaption><b>FJ C.</b>, Google review</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section about" id="about" aria-labelledby="aboutTitle">
+  <div class="wrap">
+    <figure><img src="assets/virtual.jpg" alt="Terence in a virtual session at his laptop, wearing headphones" loading="lazy"></figure>
+    <div>
+      <h2 class="h2" id="aboutTitle">Meet Terence</h2>
+      <p>Terence Boateng earned a BSc in Honours Kinesiology from the University of Waterloo, then a BASc and MHSc in Nutrition from Ryerson University. That mix of exercise and nutrition science lets him work exactly where the two meet.</p>
+      <p>He specializes in weight loss, muscle gain, metabolic health and digestive health, and regularly works with professional and amateur athletes, especially combat sports athletes. He trains and competes in Brazilian Jiu-Jitsu himself, using emerging nutrition research to fuel his own goals.</p>
+      <div class="creds"><span>Registered Dietitian</span><span>CSEP Certified Exercise Physiologist</span><span>MHSc Nutrition</span><span>BSc Kinesiology, Waterloo</span></div>
+      <p class="clients"><b>Corporate and team work:</b> workshops for companies like Red Bull and Premier Environmental Services, including sessions at Cadillac Fairview buildings, plus presentations for sports teams and clubs.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section visit" id="visit" aria-labelledby="visitTitle">
+  <div class="wrap">
+    <div class="vcard dark">
+      <h2 class="h2" id="visitTitle">Book your free consultation</h2>
+      <p style="margin-top:14px">Take the next step toward your goals and see how personalized nutrition can work for you.</p>
+      <div class="ctas">
+        <a class="btn btn-gold" data-book href="https://peaknutrition.ca/book-now/" target="_blank" rel="noopener">Book a free consult</a>
+        <a class="btn btn-line" style="border-color:#fff;color:#fff" href="tel:+14164360141">Call</a>
+      </div>
+    </div>
+    <div class="vcard">
+      <h3>Visit or meet online</h3>
+      <ul>
+        <li><b>Downtown Toronto</b>100 King St W, 56th floor, Toronto, ON M5X 1A9</li>
+        <li><b>Online</b>Virtual appointments available</li>
+        <li><b>Contact</b><span><a href="tel:+14164360141">416-436-0141</a>, <a href="mailto:info@peaknutrition.ca">info@peaknutrition.ca</a></span></li>
+      </ul>
+      <div class="ctas"><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=100+King+St+W+Toronto+ON+M5X+1A9" target="_blank" rel="noopener">Get directions</a></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <img src="assets/logo.png" alt="Peak Nutrition">
+    <span><a href="mailto:info@peaknutrition.ca">info@peaknutrition.ca</a> &nbsp; <a href="tel:+14164360141">416-436-0141</a></span>
+    <span>© <span id="yr">2026</span> Peak Nutrition</span>
+  </div>
+</footer>
+
+<div class="mbar"><a class="btn btn-line" href="tel:+14164360141">Call</a><a class="btn btn-main" data-book href="https://peaknutrition.ca/book-now/" target="_blank" rel="noopener">Book a free consult</a></div>
+
+<script>
+(() => {
+  const BOOK = "https://peaknutrition.ca/book-now/"; // Peak Nutrition's own booking page
+  const TOPICS = [["Knowledgeable",7],["Initial consultation",5],["Educational approach",5],["Clear explanations",5],["Nutrition plan",4],["Tailored plans",4],["Friendly dietitian",3]];
+  document.getElementById("bars").innerHTML = TOPICS.map(([t, n]) =>
+    `<div class="bar"><span class="t">${t}</span><span class="n">${n} reviews</span><span class="track"><span class="fill" style="width:${Math.round(n / TOPICS[0][1] * 100)}%"></span></span></div>`).join("");
+
+  // Programs and prices exactly as listed on peaknutrition.ca
+  const GOALS = {
+    health: { label: "Health, weight and performance", pk: [
+      { n: "Four Session Package", p: "$500", d: "A personalized plan with long-term follow-up and regular accountability.", i: ["60-minute initial assessment", "Personalized meal plan (valued at $137.50)", "Three 30-minute follow-ups"], best: true },
+      { n: "Meal Plan Package", p: "$350", d: "A personalized meal plan so you can take immediate action.", i: ["60-minute initial assessment", "Personalized meal plan", "One 30-minute follow-up"] } ] },
+    endurance: { label: "Endurance racing", pk: [
+      { n: "Peak Performance Coaching", p: "$950", d: "A complete race nutrition system, from training block to race day.", i: ["60-minute initial assessment", "Training nutrition plan", "Long run or ride fueling strategy", "Hydration and electrolyte strategy", "Carb loading strategy", "Race-day nutrition timeline", "Recovery guide", "Three 30-minute follow-ups"], best: true },
+      { n: "Race Ready", p: "$600", d: "Your training, fueling and hydration strategy for a specific race or block.", i: ["60-minute initial assessment", "Training nutrition plan", "Long run or ride fueling strategy", "Hydration and electrolyte strategy", "One 30-minute follow-up"] },
+      { n: "Performance Assessment", p: "$225", d: "A one-time session to audit your current nutrition and fueling.", i: ["60-minute endurance nutrition assessment", "Review of training nutrition and fueling", "Personalized recommendations"] } ] },
+    longevity: { label: "Longevity", pk: [
+      { n: "Foundations of Longevity", p: "$500", d: "A four-session program for metabolic, cognitive and physical health as you age.", i: ["Initial health and goals assessment", "Metabolic health and energy session", "Nutrition for cognitive longevity", "Physical resilience and strength", "Tailored supplement guide", "Self-monitoring checklist and recipe booklet", "Can be partly or fully covered by insurance"], best: true } ] },
+    corporate: { label: "Teams and companies", pk: [
+      { n: "Seminars and workshops", p: "Inquire", d: "60-minute dietitian-led lunch and learns, in person or virtual.", i: ["Nutrition for optimal energy", "Nutrition for cognitive function", "Eat well to age well", "Interactive formats, in person or virtual"] },
+      { n: "Dietitian Day", p: "Inquire", d: "A registered dietitian on site for one-on-one consults with your team.", i: ["One-on-one consults for employees"] },
+      { n: "Nutrition challenge", p: "Inquire", d: "A team nutrition challenge to build healthier habits together.", i: ["Practical tools for healthier choices"] } ] }
+  };
+  const goals = document.getElementById("goals"), pkgs = document.getElementById("pkgs");
+  goals.innerHTML = Object.entries(GOALS).map(([k, g], i) => `<button type="button" role="tab" data-k="${k}" aria-selected="${i === 0}">${g.label}</button>`).join("");
+  const show = k => {
+    pkgs.innerHTML = GOALS[k].pk.map(p => `<article class="pk ${p.best ? "best" : ""}">${p.best ? '<span class="tag">Most complete</span>' : ""}<h3>${p.n}</h3><p class="price">${p.p}${/\$/.test(p.p) ? "<small>per package</small>" : ""}</p><p class="d">${p.d}</p><ul>${p.i.map(x => `<li>${x}</li>`).join("")}</ul><a class="btn btn-main" data-book href="${BOOK}" target="_blank" rel="noopener">${/\$/.test(p.p) ? "Book a free consult" : "Inquire"}</a></article>`).join("");
+    goals.querySelectorAll("button").forEach(b => b.setAttribute("aria-selected", b.dataset.k === k));
+  };
+  goals.addEventListener("click", e => { const b = e.target.closest("button"); if (b) show(b.dataset.k); });
+  show("health");
+
+  const nav = document.getElementById("nav");
+  addEventListener("scroll", () => nav.classList.toggle("stuck", scrollY > 10), { passive: true });
+  const d = document.getElementById("drawer"), btn = document.getElementById("menuBtn");
+  const set = o => { d.hidden = !o; btn.setAttribute("aria-expanded", o); document.body.style.overflow = o ? "hidden" : ""; (o ? document.getElementById("menuClose") : btn).focus(); };
+  btn.onclick = () => set(true); document.getElementById("menuClose").onclick = () => set(false);
+  d.addEventListener("click", e => { if (e.target.closest("a")) set(false); });
+  addEventListener("keydown", e => { if (e.key === "Escape" && !d.hidden) set(false); });
+  document.getElementById("yr").textContent = new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
