@@ -304,6 +304,12 @@
     font-family:'Montserrat',sans-serif;
     border-bottom:1px solid var(--line);
   }
+  .pf-thumb.has-img{padding:0;background:#16130f;}
+  .pf-thumb.has-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top center;display:block;transition:transform .5s ease;}
+  .pf-thumb .pf-tag{position:absolute;left:12px;bottom:12px;z-index:2;padding:5px 10px;border-radius:999px;background:rgba(7,12,22,.82);border:1px solid rgba(255,255,255,.14);font-size:.68rem;letter-spacing:1px;color:#fff;}
+  a.pf-card{display:block;text-decoration:none;color:inherit;}
+  a.pf-card:hover .pf-thumb img{transform:scale(1.04);}
+  .pf-link{display:inline-block;margin-top:12px;font-family:'Montserrat',sans-serif;font-size:.8rem;font-weight:700;letter-spacing:.5px;color:var(--accent);}
   .pf-body{padding:22px 24px;}
   .pf-body h4{font-size:1.05rem;font-weight:700;margin-bottom:6px;}
   .pf-body p{font-family:'Inter',sans-serif;color:var(--text-dim);font-size:0.9rem;}
@@ -656,13 +662,17 @@
           <p data-i18n="portfolio.p1.body">Landing page com inventário e contato direto.</p>
         </div>
       </div>
-      <div class="pf-card reveal">
-        <div class="pf-thumb" data-i18n="portfolio.p2.tag">Restaurante</div>
-        <div class="pf-body">
-          <h4 data-i18n="portfolio.p2.title">Churrascaria portuguesa</h4>
-          <p data-i18n="portfolio.p2.body">Site institucional bilíngue com cardápio e localização.</p>
+      <a class="pf-card reveal" href="/lume-churrasqueira/" target="_blank" rel="noopener">
+        <div class="pf-thumb has-img">
+          <img src="assets/portfolio-lume.jpg" alt="Lume Churrasqueira website" loading="lazy" width="1200" height="750">
+          <span class="pf-tag" data-i18n="portfolio.p2.tag">Restaurante · Conceito</span>
         </div>
-      </div>
+        <div class="pf-body">
+          <h4 data-i18n="portfolio.p2.title">Lume Churrasqueira</h4>
+          <p data-i18n="portfolio.p2.body">Site completo para churrasqueira portuguesa: vídeo que responde ao scroll, cardápio interativo e 3 unidades.</p>
+          <span class="pf-link" data-i18n="portfolio.p2.link">Ver site →</span>
+        </div>
+      </a>
       <div class="pf-card reveal">
         <div class="pf-thumb" data-i18n="portfolio.p3.tag">Em breve</div>
         <div class="pf-body">
@@ -821,7 +831,7 @@ const i18n = {
     "payment.note":"Valores e forma de pagamento (transferência ou cartão de crédito) são combinados no orçamento, conforme o tamanho do projeto.",
     "portfolio.tag":"Trabalhos","portfolio.title":"Portfólio","portfolio.lead":"Projetos em andamento, em breve com casos reais.",
     "portfolio.p1.tag":"Automotivo","portfolio.p1.title":"Concessionária de veículos","portfolio.p1.body":"Landing page com inventário e contato direto.",
-    "portfolio.p2.tag":"Restaurante","portfolio.p2.title":"Churrascaria portuguesa","portfolio.p2.body":"Site institucional bilíngue com cardápio e localização.",
+    "portfolio.p2.tag":"Restaurante · Conceito","portfolio.p2.title":"Lume Churrasqueira","portfolio.p2.body":"Site completo para churrasqueira portuguesa: vídeo que responde ao scroll, cardápio interativo e 3 unidades.","portfolio.p2.link":"Ver site →",
     "portfolio.p3.tag":"Em breve","portfolio.p3.title":"Seu negócio aqui","portfolio.p3.body":"O próximo projeto pode ser o seu.",
     "faq.tag":"Dúvidas","faq.title":"Perguntas frequentes",
     "faq.q1.q":"E se eu não gostar do design?","faq.q1.a":"Sem problema, os ajustes fazem parte do processo e estão incluídos antes de qualquer pagamento. Você só paga a entrada depois de aprovar o modelo.",
@@ -878,7 +888,7 @@ const i18n = {
     "payment.note":"Amounts and payment method (e-transfer or credit card) are agreed on in the quote, based on the project's size.",
     "portfolio.tag":"Work","portfolio.title":"Portfolio","portfolio.lead":"Projects in progress, real case studies coming soon.",
     "portfolio.p1.tag":"Automotive","portfolio.p1.title":"Car dealership","portfolio.p1.body":"Landing page with inventory and direct contact.",
-    "portfolio.p2.tag":"Restaurant","portfolio.p2.title":"Portuguese churrascaria","portfolio.p2.body":"Bilingual business site with menu and location.",
+    "portfolio.p2.tag":"Restaurant · Concept","portfolio.p2.title":"Lume Churrasqueira","portfolio.p2.body":"Full website for a Portuguese grill: scroll-driven video hero, interactive menu and 3 locations.","portfolio.p2.link":"View site →",
     "portfolio.p3.tag":"Coming soon","portfolio.p3.title":"Your business here","portfolio.p3.body":"The next project could be yours.",
     "faq.tag":"FAQ","faq.title":"Frequently asked questions",
     "faq.q1.q":"What if I don't like the design?","faq.q1.a":"No problem, revisions are part of the process and included before any payment. You only pay the deposit after approving the design.",
