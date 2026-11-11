@@ -67,7 +67,7 @@ const PT = {
   'q.lede':'Segure para lacrar o container e abrir o pedido de cotação.',
   'q.unlock':'Segure o lacre para abrir, ou clique aqui',
   'q.hold':'Segure para lacrar','q.hint':'Ou aperte Enter para abrir o formulário.',
-  'f.name':'Seu nome','f.company':'Empresa','f.email':'E-mail','f.port':'Saindo de','f.dest':'Indo para (país)','f.type':'Carga',
+  'f.name':'Seu nome','f.company':'Empresa','f.email':'Email','f.port':'Saindo de','f.dest':'Indo para (país)','f.type':'Carga',
   'f.unsure':'Ainda não sei','f.cargo':'O que você vai enviar?','f.cargo.ph':'Produto, peso ou volume aproximado, data em que fica pronto',
   'f.send':'Pedir minha cotação','f.note':'Formulário de prévia. Os pedidos começam quando a Transcont abrir.',
   'f.ok.t':'Lacrado.','f.ok.d':'Obrigado. Este formulário é uma prévia, então nada foi enviado ainda. Ele começa a funcionar quando a Transcont abrir.',
@@ -195,8 +195,11 @@ function split(el, text, seed){
   el.append(sr, vis);
 }
 
+const EN_TITLE = document.title;
+const PT_TITLE = 'Transcont: negócios entre o Canadá e o mundo';
 function applyLang(l){
   lang = l;
+  document.title = l === 'pt' ? PT_TITLE : EN_TITLE;
   document.documentElement.lang = l === 'pt' ? 'pt-BR' : 'en';
   document.querySelectorAll('[data-i18n]').forEach((el, i) => {
     const key = el.dataset.i18n;
