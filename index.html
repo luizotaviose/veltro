@@ -972,7 +972,7 @@
       <h2 data-i18n="contact.title">Vamos colocar seu negócio em destaque?</h2>
       <p data-i18n="contact.lead">Fale com a gente no WhatsApp ou por email.</p>
       <div class="contact-actions">
-        <a href="https://wa.me/14375561384" class="btn btn-secondary">WhatsApp</a>
+        <a href="https://wa.me/14374352138" class="btn btn-secondary">WhatsApp</a>
         <a href="mailto:veltrocontact.ca@gmail.com" class="btn btn-secondary">veltrocontact.ca@gmail.com</a>
       </div>
     </div>
@@ -1019,7 +1019,7 @@
     <div class="footer-col">
       <h5 data-i18n="footer.contactTitle">Contato</h5>
       <ul>
-        <li><a href="https://wa.me/14375561384" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li><a href="https://wa.me/14374352138" target="_blank" rel="noopener">WhatsApp</a></li>
         <li><a href="mailto:veltrocontact.ca@gmail.com">veltrocontact.ca@gmail.com</a></li>
         <li><span data-i18n="footer.location">Toronto, Canadá</span></li>
       </ul>
@@ -1356,7 +1356,7 @@ function renderPlans(lang){
   const L = PLANS[lang] || PLANS.en, grid = document.getElementById('planGrid'), terms = document.getElementById('planTerms');
   if(!grid) return;
   grid.innerHTML = L.items.map((pl,i)=>{
-    const wa = 'https://wa.me/14375561384?text=' + encodeURIComponent(L.wa.replace('{p}', pl.name));
+    const wa = 'https://wa.me/14374352138?text=' + encodeURIComponent(L.wa.replace('{p}', pl.name));
     return '<div class="plan reveal in-view'+(pl.featured?' featured':'')+'">'
       + (pl.featured ? '<span class="plan-badge">'+L.badge+'</span>' : '')
       + '<div class="plan-name">'+pl.name+'</div><div class="plan-sub">'+pl.sub+'</div>'
@@ -1422,7 +1422,7 @@ if(contactForm){
     const currentLang = document.documentElement.lang === 'en' ? 'en' : (document.documentElement.lang === 'fr-CA' ? 'fr' : 'pt');
     let msg = i18n[currentLang]['contact.form.waMessage'].replace('{name}', name).replace('{business}', business);
     if(need) msg += ` ${need}`;
-    window.open(`https://wa.me/14375561384?text=${encodeURIComponent(msg)}`, '_blank');
+    window.open(`https://wa.me/14374352138?text=${encodeURIComponent(msg)}`, '_blank');
   });
 }
 </script>
